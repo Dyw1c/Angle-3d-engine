@@ -16,10 +16,8 @@ using namespace std;
 const int WIDTH = 640;
 const int HEIGHT = 360;
 
-// Глобальный флаг для управления циклом
 bool game_running = true;
 
-// Массив состояния клавиш (true = нажата)
 bool keys[256] = { false };
 
 class Vec2 {
@@ -804,4 +802,5 @@ int WINAPI WinMain(_In_ HINSTANCE hInst, _In_opt_ HINSTANCE hPrev, _In_ LPSTR cm
 	}
 
 	return 0;
+
 }
