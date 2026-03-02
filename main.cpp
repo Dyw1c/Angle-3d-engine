@@ -12,7 +12,6 @@
 
 using namespace std;
 
-// Настройки
 const int WIDTH = 640;
 const int HEIGHT = 360;
 
@@ -177,7 +176,6 @@ Vec3 ViewZoneSize = Vec3(10000, 300, 10000);
 int FOV = 120;
 float FOVY = static_cast<float>(FOV) / (16.0f / 9.0f);
 
-// Коэффициенты без округления
 float koef_otstupa_x = static_cast<float>(WIDTH) / static_cast<float>(FOV);
 float koef_otstupa_y = static_cast<float>(HEIGHT) / FOVY;
 
@@ -804,3 +802,4 @@ int WINAPI WinMain(_In_ HINSTANCE hInst, _In_opt_ HINSTANCE hPrev, _In_ LPSTR cm
 	return 0;
 
 }
+
